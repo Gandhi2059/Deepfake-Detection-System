@@ -6,6 +6,13 @@ This project is an AI-powered deepfake detection system that analyzes uploaded i
 
 A complete full-stack web application designed for research and evaluation of deepfake detection models.
 
+## Project Ownership & Contact
+This project belongs to Gandhi Raj Giri.
+
+For any information regarding this project, please contact me through the project website or via email:
+- Email: gandhigiri56@gmail.com
+- Website: www.gandhiraj.com
+
 ## Features
 - **Frontend**: Next.js (App Router), Tailwind CSS, Framer Motion, Recharts
 - **Backend**: FastAPI, TensorFlow/Keras, OpenCV, MediaPipe
@@ -41,8 +48,8 @@ Place your trained Keras model inside `backend/models/best_accuracy_gain_model.k
 
 Start the backend server:
 ```bash
-uvicorn main:app --reload --host 0.0.0.0 --port 8000
-```
+
+``` ./venv/bin/python -m uvicorn main:app --reload --host 0.0.0.0 --port 8000
 
 ### 2. Frontend (Next.js)
 
