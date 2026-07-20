@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+.env
+.env.*
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Node / Next.js
+node_modules/
+.next/
+out/
+
+# Local runtime artifacts
+backend/temp/
+backend/reports/
+*.log
+
+# Large model artifacts (optional)
+backend/models/*.keras
