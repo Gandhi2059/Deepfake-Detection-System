@@ -1,17 +1,15 @@
-<<<<<<< HEAD
 # Deepfake-Detection-System
-This project is an AI-powered deepfake detection system that analyzes uploaded images and videos to identify manipulated media using machine learning and computer vision. it supports media upload, preprocessing, prediction, report generation. Designed for research, education, and, it offers a practical away to explore deepfake detection technology.
-=======
-# AI-Based Deepfake Detection System
 
-A complete full-stack web application designed for research and evaluation of deepfake detection models.
+This project is an AI-powered deepfake detection system that analyzes uploaded images and videos to identify manipulated media using machine learning and computer vision. It supports media upload, preprocessing, prediction, report generation, and an admin dashboard. Designed for research, education, and demonstration, it offers a practical way to explore deepfake detection technology.
 
 ## Project Ownership & Contact
 This project belongs to Gandhi Raj Giri.
 
 For any information regarding this project, please contact me through the project website or via email:
 - Email: gandhigiri56@gmail.com
-- Website: www.gandhiraj.com
+- Website: https://www.gandhiraj.com.np
+
+For the research paper associated with this project, please contact me through my mail or website.
 
 ## Features
 - **Frontend**: Next.js (App Router), Tailwind CSS, Framer Motion, Recharts
@@ -48,8 +46,10 @@ Place your trained Keras model inside `backend/models/best_accuracy_gain_model.k
 
 Start the backend server:
 ```bash
-
-``` ./venv/bin/python -m uvicorn main:app --reload --host 0.0.0.0 --port 8000
+uvicorn main:app --reload --host 0.0.0.0 --port 8000
+```
+uvicorn main:app --reload --host 0.0.0.0 --port 8000
+```
 
 ### 2. Frontend (Next.js)
 
@@ -72,4 +72,3 @@ Visit `http://localhost:3000` in your browser.
 
 ## Default Admin Credentials
 - **Password**: `admindhruva`
->>>>>>> 8bdc956 (Initial project commit)
